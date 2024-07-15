@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.elem{
+    width: 100%;
+    height: 150px;
+    /* background-color: red; */
+    border-bottom: 2px solid rgb(201, 199, 199);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+.elem img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    /* transform: scale(0); */
+    opacity: 0;
+    position: absolute;
+    /* transform: translate(-50%,-50%); */
+}
+
+h2{
+    font-size: 5vw;
+    z-index: 200;
+    mix-blend-mode: difference;
+}

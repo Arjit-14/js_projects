@@ -1,0 +1,31 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
+span{
+    color: red;
+}
+
+button{
+    background-color: antiquewhite;
+    color: purple;
+    border: 2px solid black;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 2s;
+}
+
+button:hover{
+    background-color: aquamarine;
+    color: black;
+}
